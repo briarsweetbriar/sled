@@ -8,12 +8,14 @@ Gem::Specification.new do |gem|
   gem.version       = Sled::VERSION
   gem.authors       = ["Sigfrid Dusci"]
   gem.email         = ["sigfrid.dusci@swelement.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
-
-  gem.files         = `git ls-files`.split($/)
-  gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
-  gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
-  gem.require_paths = ["lib"]
+  gem.homepage      = "https://github.com/sigfrid/sled"
+  gem.summary       = "Inuit.css on Rails"
+  gem.description   = <<-EOF
+      inuit.css is a powerful little framework designed for serious developers (http://inuitcss.com/).
+      This gem allows for its easy inclusion into the rails asset pipeline.
+    EOF
+    
+  gem.files         = Dir["{lib,vendor}/**/*"] + ["LICENSE", "README.md"]
+  
+  gem.add_dependency "railties", "~> 3.1"
 end
