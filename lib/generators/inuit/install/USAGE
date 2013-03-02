@@ -1,0 +1,9 @@
+Description:
+    Sets up inuit.css in your Rails project. After running this generator you will
+    
+    This generates the necessary files in the assets/stylesheets directory.
+    
+Examples:
+    `rails g inuit:install`
+
+    `rails g inuit:install --help`
