@@ -1,29 +1,24 @@
-# Sled
+# Sled    (a.k.a Inuit on Rails)
 
-TODO: Write a gem description
+Sled wraps the [inuit.css](http://inuitcss.com/) framework in a rails engine for simple use with the asset pipeline introduced by rails 3.1.
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Include this line to your application's Gemfile:
 
     gem 'sled'
 
-And then execute:
+Run bundle install from the command line:
 
-    $ bundle
+    bundle install
 
-Or install it yourself as:
+Run the generator provided by sled to add inuit.css into your assets:
 
-    $ gem install sled
+    rails g inuit:install
 
-## Usage
+The generator adds the inuit_and_override.css.scss file to your stylesheets. 
 
-TODO: Write usage instructions here
+## Versioning
 
-## Contributing
-
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+Sled major, minor, and patch version numbers represents inuit.css version. Current version is 4.5.5
+Should a gem bug be discovered, a 4th version identifier will be added and incremented.
