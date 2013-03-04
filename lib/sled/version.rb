@@ -1,3 +1,3 @@
 module Sled
-  VERSION = "0.0.1"
+  VERSION = "4.5.5"
 end
