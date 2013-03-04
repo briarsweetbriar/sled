@@ -7,8 +7,8 @@ Gem::Specification.new do |gem|
   gem.name          = "sled"
   gem.version       = Sled::VERSION
   gem.authors       = ["Sigfrid Dusci"]
-  gem.email         = ["sigfrid.dusci@swelement.com"]
-  gem.homepage      = "https://github.com/sigfrid/sled"
+  gem.email         = ["sig@guestcoder.org"]
+  gem.homepage      = "https://github.com/guestcoder/sled"
   gem.summary       = "Inuit.css on Rails"
   gem.description   = <<-EOF
       inuit.css is a powerful little framework designed for serious developers (http://inuitcss.com/).
